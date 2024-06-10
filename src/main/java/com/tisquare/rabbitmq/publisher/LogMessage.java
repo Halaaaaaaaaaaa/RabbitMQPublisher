@@ -41,6 +41,7 @@ public class LogMessage implements Serializable {
         this.msg = msg;
     }
 
+    //메시지 로그 찍기 위해서 toString으로 규격 설정
     @Override
     public String toString() {
         return String.format("[%s] [%s] [%s] [%s] [%s] - %s",
