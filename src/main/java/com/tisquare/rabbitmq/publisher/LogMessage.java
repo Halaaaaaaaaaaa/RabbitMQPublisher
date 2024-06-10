@@ -47,5 +47,4 @@ public class LogMessage implements Serializable {
         return String.format("[%s] [%s] [%s] [%s] [%s] - %s",
                 dateTime, level, taskname, hostname, userId, msg);
     }
-
 }
